@@ -1,5 +1,7 @@
 # Sequential Thinking MCP Server
 
+My Notion Link: https://dirt-brazil-c9f.notion.site/MCP-Sequential-Thinking-1ca0b49fc65b8078b739c755ab2ee3a5?pvs=4
+
 A Model Context Protocol (MCP) server that facilitates structured, progressive thinking through defined stages. This tool helps break down complex problems into sequential thoughts, track the progression of your thinking process, and generate summaries.
 
 <a href="https://glama.ai/mcp/servers/m83dfy8feg"><img width="380" height="200" src="https://glama.ai/mcp/servers/m83dfy8feg/badge" alt="Sequential Thinking Server MCP server" /></a>
