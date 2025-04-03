@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sequential-thinking"
+version = "0.2.0"
+description = "A Sequential Thinking MCP Server for advanced problem solving"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.10"
+dependencies = [
+   "mcp[cli]>=1.2.0",
+   "rich>=13.7.0",
+   "pydantic",
+   "python-dotenv"
+]
+
+[project.scripts]
+mcp-sequential-thinking = "mcp_sequential_thinking.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["mcp_sequential_thinking"]
